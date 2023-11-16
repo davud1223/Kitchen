@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Şablonu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme">Yan Naviqasiya</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Yaxın <i class="fa fa-remove"></i></button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+</nav>
+
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>GÖZƏL CAVABLI VEB SAYTLARI</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">W3.CSS İLƏ TƏRKİB</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">W3.CSS ÖYRƏNİN</button>
+    </div>
+  </div>
+</header>
+
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>
+    Cavab verən</h3><br>
+  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Daxili həssaslıq</p>
+  <p>Mobil ilk maye şəbəkəsi</p>
+  <p>
+İstənilən ekran ölçülərinə uyğundur</p>
+  <p>PC Tablet və Mobil
+  </p>
+  </div>
+</div>
+
+<div class="w3-üçüncü">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Standard CSS</h3><br>
+  <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Yalnız standart CSS</p>
+  <p>Öyrənmək asandır</p>
+  <p>
+    jQuery-ə ehtiyac yoxdur</p>
+  <p>
+    JavaScript kitabxanası yoxdur</p>
+  </div>
+</div>
+
+<div class="w3-üçüncü">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Dizayn</h3><br>
+  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Kağız kimi dizayn</p>
+  <p>Cəsarətli rənglər və kölgələr</p>
+  <p>Platformalar arasında bərabərdir
+  </p>
+  <p>Cihazlar arasında bərabərdir</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-container">
+<hr>
+<div class="w3-center">
+  <h2>Rəng Dərsləri</h2>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col w3-container m2 w3-red"><p>Qırmızı</p></div>
+  <div class="w3-col w3-container m2 w3-blue"><p>Mavi</p></div>
+  <div class="w3-col w3-container m2 w3-blue-grey"><p>Göy Boz</p></div>
+  <div class="w3-col w3-container m2 w3-teal"><p>Mavi</p></div>
+  <div class="w3-col w3-container m2 w3-yellow"><p>Sarı</p></div>
+  <div class="w3-col w3-container m2 w3-orange"><p>Narıncı</p></div>
+</div>
+
+<hr>
+<div class="w3-center">
+  <h2>Quraşdırılmış Cavabdarlıq</h2>
+  <p class="w3-large">Təsiri görmək üçün səhifənin ölçüsünü dəyişdirin!</p>
+</div>
+<br>
+
+<div class="w3-row w3-border">
+  <div class="w3-half w3-container w3-blue w3-border">
+    <h5>w3-yarım</h5>  
+    <p>w3-yarım sinfi ekran pəncərəsinin yarısını (50%) istifadə edir.
+    </p>
+    <p>Kiçik ekranlarda (maksimum 600 piksel) avtomatik olaraq tam ekran eninə dəyişir.
+    </p>
+  </div>
+  <div class="w3-half w3-container">
+    <h5>w3-yarım
+    </h5>  
+  </div>
+</div>
+<br>
+
+<div class="w3-row w3-border">
+  <div class="w3-third w3-container w3-green">
+    <h5>w3-üçüncü</h5>  
+    <p>w3-üçüncü sinif ekran dulunun üçdə birini (33,33%) istifadə edir.</p>
+    <p>Kiçik ekranlarda (maksimum 600 piksel) avtomatik olaraq tam ekran eninə dəyişir.</p>
+  </div>
+  <div class="w3-third w3-container">
+    <h5>w3-üçüncü
+    </h5>  
+  </div>
+  <div class="w3-third w3-container">
+    <h5>w3-üçüncü
+    </h5>  
+  </div>
+</div>
+<br>
+
+<div class="w3-row w3-border">
+  <div class="w3-quarter w3-container w3-red">
+    <h5>w3-rüb</h5>  
+    <p>w3-rüb sinfi ekran pəncərəsinin dörddə birini (25%) istifadə edir.</p>
+    <p>Kiçik ekranlarda (maksimum 600 piksel) avtomatik olaraq tam ekran eninə dəyişir.
+    </p>
+  </div>
+  <div class="w3-quarter w3-container">
+    <h5>w3-rüb
+    </h5>  
+  </div>
+  <div class="w3-quarter w3-container">
+    <h5>w3-rüb</h5>  
+  </div>
+  <div class="w3-quarter w3-container">
+    <h5>w3-rüb</h5>  
+  </div>
+</div> 
+     
+<div class="w3-center">
+  <h2>Konteynerlər</h2>
+  <p>Başlıqlar, bölmələr və altbilgilər yaratmaq üçün konteynerlərdən istifadə edin.</p>
+</div>   
+
+<header class="w3-container w3-blue-grey">
+  <h2>Başlıq</h2>
+</header>
+
+<div class="w3-padding w3-white w3-display-container">
+  <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-remove"></i></span>
+  <h2>London</h2>
+  <p>London İngiltərənin paytaxtıdır. 13 milyondan çox əhalisi olan Böyük Britaniyanın ən sıx məskunlaşdığı şəhərdir.</p>
+  <p>Temza çayı üzərində dayanan London, iki minillik boyu əsas yaşayış məntəqəsi olmuşdur, onun tarixi Londinium adını verən romalılar tərəfindən qurulduğuna qədər gedib çıxır.</p>
+  <p>Yeri gəlmişkən, onları gizlətmək qabiliyyətini istəyirsinizsə, bütün konteynerlərə yaxın simvol əlavə edə bilərsiniz. Sağınıza baxın!</p>
+</div>
+
+<footer class="w3-container w3-blue-grey">
+  <h5>Altbilgi</h5>
+  <p class="w3-opacity">Altbilgi məlumatı buradadır</p>
+</footer>
+
+<hr>
+<div class="w3-center">
+  <h2>Rəng mövzuları</h2>
+  <p>Rəng mövzuları bir-biri ilə ahəngdar işləmək üçün nəzərdə tutulmuşdur.</p>
+</div>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-half">
+<div class="w3-card white">
+  <div class="w3-container w3-indigo">
+    <h3>İndigo mövzusu</h3>
+  </div>
+  <div class="w3-container">
+  <h3 class="w3-text-indigo">Filmlər 2014</h3>
+  </div>
+  <ul class="w3-ul w3-border-top">
+    <li>
+      <h3>Dondurulmuş</h3>
+      <p>Animasiyalara verilən cavab gülünc idi
+      </p>
+    </li>
+    <li>
+      <h3>Ulduzlarımızda Günah</h3>
+      <p>Toxunma, tutma və həqiqətən yaxşı hazırlanmışdır</p>
+    </li>
+    <li>
+      <h3>Qisasçılar</h3>
+      <p>Marvel və Disney üçün böyük uğur</p>
+    </li>
+  </ul>
+  <div class="w3-container w3-indigo w3-large"><span class="w3-right">Sonrakı</span></div>
+</div>
+</div>
+
+<div class="w3-half">
+<div class="w3-card white">
+  <div class="w3-container w3-theme">
+    <h3>Mövzu<h3>
+  </div>
+  <div class="w3-container">
+  <h3 class="w3-text-theme">Filmlər 2014</h3>
+  </div>
+  <ul class="w3-ul w3-border-top">
+    <li>
+      <h3>Dondurulmuş</h3>
+      <p>Animasiyalara verilən cavab gülünc idi</p>
+    </li>
+    <li>
+      <h3>Ulduzlarımızda Günah</h3>
+      <p>Toxunma, tutma və həqiqətən yaxşı hazırlanmışdır</p>
+    </li>
+    <li>
+      <h3>Qisasçılar</h3>
+      <p>Marvel və Disney üçün böyük uğur</p>
+    </li>
+  </ul>
+  <div class="w3-container w3-theme w3-large"><span class="w3-right">Sonrakı</span></div>
+</div>
+</div>
+</div>
+
+<div class="w3-container w3-center">
+  <hr>
+  <h3>Kölgələri olan kağıza bənzər kartlar</h3>
+</div>
+
+<div class="w3-row-padding"> 
+
+<div class="w3-third">
+<div class="w3-card">
+  <img src="car.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+  <p>w3-kart</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card-4">
+  <img src="car.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+  <p>w3-kart-4</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card-4">
+  <img src="car.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+  <p>w3-kart-4</p>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <h2>Cədvəllər</h2>
+    <p w3-class="w3-large">narahat olma. W3.CSS cədvəllərinizə qayğı göstərir.</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th>Ad</th>
+  <th>Soyad</th>
+  <th>Xallar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Jill</td>
+  <td>Smit</td>
+  <td>50</td>
+</tr>
+<tr class="w3-white">
+  <td>Ərəfə</td>
+  <td>Cekson</td>
+  <td>94</td>
+</tr>
+<tr>
+  <td>Adəm</td>
+  <td>Conson</td>
+  <td>67</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<hr>
+<h2 class="w3-center">Formalar və Siyahılar</h2>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-half">
+<form class="w3-container w3-card-4">
+  <h2>Daxiletmə forması</h2>
+  <div class="w3-section">      
+    <input class="w3-input" type="text" required>
+    <label>ad</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" type="text" required>
+    <label>E-poçt</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" type="text" required>
+    <label>Mövzu</label>
+  </div>
+
+  <div class="w3-row">
+  <div class="w3-half">
+    <input id="milk" class="w3-check" type="checkbox" checked="checked">
+    <label>Süd</label>
+    <br>
+    <input id="sugar" class="w3-check" type="checkbox">
+    <label>Şəkər</label>
+    <br>
+    <input id="lemon" class="w3-check" type="checkbox" disabled>
+    <label> Limon (Əlil)</label>
+    <br><br>
+  </div>
+
+  <div class="w3-half">
+    <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked>
+    <label>Kişi</label>
+    <br>
+    <input id="female" class="w3-radio" type="radio" name="gender" value="female">
+    <label>Qadın</label>
+    <br>
+    <input id="unknown" class="w3-radio" type="radio" name="gender" value="" disabled>
+    <label> Bilmirəm (Əlil)</label>
+  </div>
+  </div>
+</form>
+</div>
+<div class="w3-half">
+<div class="w3-card-4 w3-container">
+<h2>Siyahılar</h2>
+<ul class="w3-ul w3-margin-bottom">
+  <li>Jill</li>
+  <li>Həvva</li>
+  <li>Adəm</li>
+</ul>
+<br>
+<ul class="w3-ul w3-border w3-hoverable">
+  <li class="w3-theme">Jill</li>
+  <li>Həvva</li>
+  <li>Adəm</li>
+  <li>Stiv</li>
+</ul>
+<br>
+</div>
+</div>
+</div>
+<hr>
+
+<h2 class="w3-center">Tərəqqi Barları</h2>
+<div class="w3-container">
+
+<div class="w3-light-gray">
+  <div id="myBar" class="w3-center w3-padding w3-theme" style="width:5%">5%</div>
+</div><br>
+<button class="w3-btn w3-theme" onclick="move()">Mep klikləyin</button> 
+</div>
+<hr>
+
+<h2 class="w3-center">Slayd şouları</h2>
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides w3-animate-opacity" src="snow.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="lights.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="mountains.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="forest.jpg" style="width:100%">
+
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
+</div>
+
+<div class="w3-container">
+<hr>
+<h2 class="w3-center">Naviqasiya</h2>
+
+<div class="w3-bar w3-theme">
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Ev</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-padding-16">
+      Açılan <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div>
+</div>
+  
+<hr>
+<h2 class="w3-center">akkordeon</h2>
+<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Bölməni açın 1</button>
+<div id="Demo1" class="w3-hide">
+  <div class="w3-container">
+    <p>Ehtiyacınız olan hər hansı bir elementi yoxlayın, adipisising elitini təyin edin, iş vaxtı və hər hansı bir iş üçün vaxt ayırın. Minimum hesab edirəm ki, heç bir nəticə əldə edə bilməyəcəksiniz.</p>
+  </div>
+</div>
+<button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Bölməni açın 2</button>
+<div id="Demo2" class="w3-hide">
+  <a href="#" class="w3-button w3-block w3-left-align">Link 1</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 2</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 3</a>
+</div>
+<button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Bölməni açın 3</button>
+<div id="Demo3" class="w3-hide w3-black">
+  <div class="w3-container">
+    <p>Accordion with Images:</p>
+    <img src="img_snowtops.jpg" style="width:30%;" class="w3-animate-zoom">
+    <p>French Alps</p>
+  </div>
+</div>
+
+<hr>
+<h2 class="w3-center">Nişanlar</h2>
+<div class="w3-border">
+<div class="w3-bar w3-theme">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'London')">London</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">Paris</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="w3-container city w3-animate-opacity">
+  <h2>London</h2>
+  <p>London İngiltərənin paytaxtıdır.</p>
+  <p>13 milyondan çox əhalisi olan Böyük Britaniyanın ən sıx məskunlaşdığı şəhərdir.</p>
+</div>
+
+<div id="Paris" class="w3-container city w3-animate-opacity">
+  <h2>Paris</h2>
+  <p>Paris Fransanın paytaxtıdır.</p> 
+  <p>Paris ərazisi 12 milyondan çox əhalisi olan Avropanın ən böyük əhali mərkəzlərindən biridir.</p>
+</div>
+
+<div id="Tokyo" class="w3-container city w3-animate-opacity">
+  <h2>Tokio</h2>
+  <p>Tokio Yaponiyanın paytaxtıdır.</p>
+  <p>Bu, Böyük Tokio Bölgəsinin mərkəzidir və dünyanın ən sıx məskunlaşdığı metropoliten ərazisidir.</p>
+</div>
+</div>
+
+<hr>
+<h2 class="w3-center">Düymələr</h2>
+<div class="w3-center">
+  <br>
+  <a class="w3-button w3-theme">Düymələr</a>
+  <a class="w3-button w3-theme">Düymələr</a>
+  <a class="w3-button w3-theme-d3 w3-disabled">Düymələr</a>
+  <br><br>
+  <a class="w3-button w3-circle w3-large w3-black"><i class="fa fa-plus"></i></a>
+  <a class="w3-button w3-circle w3-large w3-theme"><i class="fa fa-plus"></i></a>  
+  <a class="w3-button w3-circle w3-large w3-card-4"><i class="fa fa-plus"></i></a>
+</div>
+<br>
+<div class="w3-center">
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-theme">Açılan <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<hr>
+<div class="w3-center">
+  <h2>Səhifələmə</h2>
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">«</a>
+      <a href="#" class="w3-bar-item w3-button w3-theme w3-hover-theme">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">5</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">»</a>
+    </div>
+  </div>
+</div>
+<br>
+
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <h3>Altbilgi</h3>
+  <p>Powered by<a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-theme-light w3-padding">Yuxarıya keçin</span>    
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  <p>Bizimlə yoxlamağı unutmayın<a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS İstinad</a></p>
+</footer>
+
+<script>
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>
